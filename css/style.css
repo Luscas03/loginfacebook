@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*575 */
+@media only screen and (max-width: 576px) {
+
+    #form {
+        width: 200px;
+        height: 100px;
+
+        transform: translate(-520px, 300px);
+
+    }
+
+    #create {
+        color: #f0f2f5;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 836px) {
+    #title {
+        padding: 10%;
+        margin-left: 10%;
+    }
+
+    #title img {
+        transform: translateX(-14px);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #face {
+        padding: 10%;
+        transform: translateX(-30px);
+        color: #f0f2f5;
+    }
+
+    #main {
+        margin-left: 17%;
+
+
+
+    }
+
+    #row {
+        transform: translateY(-150px);
+    }
+
+    html,
+    body {
+        overflow-x: hidden !important;
+
+        width: 100%;
+        margin: 0 auto;
+        min-width: 500px;
+        max-width: 1600px
+    }
+
+    * {
+        box-sizing: border-box;
+        list-style-type: none;
+
+
+
+    }
+
+    #create {
+        margin-right: 100px;
+
+    }
+}
+
+#principal {
+    width: 100%;
+    height: 876px;
+    background-color: #f0f2f5;
+    background-repeat: no-repeat;
+}
+
+#main {
+
+    transform: translatey(140px);
+    width: 900px;
+    height: 496px;
+
+}
+
+#face {
+
+    height: 330px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.lh-1 {
+    transform: translate(4px, -15px);
+    font-size: 24px;
+
+
+}
+
+#title {
+    transform: translate(-50px, 35px);
+}
+
+#form {
+    width: 396px;
+    height: 330px;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.171);
+
+}
+
+img {
+    transform: translate(-40px);
+}
+
+#login input {
+    width: 360px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    outline-color: #1877f2;
+    border: 1px solid #dddfe2;
+    padding-left: 10px;
+
+}
+
+#senha input {
+    width: 360px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    outline-color: #1877f2;
+    border: 1px solid #dddfe2;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#entrar button {
+    width: 360px;
+    height: 50px;
+    margin-top: 10px;
+    border: 0;
+    color: white;
+    background-color: #1877f2;
+    outline-color: #1877f2;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+
+}
+
+#entrar button:hover {
+    background-color: #1870e4;
+}
+
+#nconta button {
+    width: 180px;
+    height: 50px;
+
+    border: 0;
+    color: white;
+    background-color: #42b72a;
+    outline-color: #42b72a;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+
+}
+
+#nconta button:hover {
+    background-color: #3ea729;
+}
+
+#passwd p {
+    color: #1877f2;
+    margin-top: 10px;
+}
+
+#passwd p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#hr hr {
+    color: #757575;
+
+}
+
+#create {
+    font-size: 14px;
+    transform: translate(-12px, 25px);
+}
+
+#create strong:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #8f8f8f;
+
+}
